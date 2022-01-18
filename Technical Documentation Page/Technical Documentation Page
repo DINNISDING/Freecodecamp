@@ -1,0 +1,74 @@
+<nav id="navbar">
+  <header>JavaScript 笔记</header>
+  <ul>
+    <li><a class="nav-link" href="#数据类型">数据类型</a></li>
+    <li><a class="nav-link" href="#变量名称">变量名称</a></li>
+    <li><a class="nav-link" href="#驼峰命名法">驼峰命名法</a></li>
+    <li><a class="nav-link" href="#声明变量">声明变量</a></li>
+    <li><a class="nav-link" href="#数组">数组</a></li>
+    <li><a class="nav-link" href="#函数">函数</a></li>    
+  </ul>
+</nav>
+<main id="main-doc">
+ <section class="main-section" id="数据类型">
+    <header id="数据类型">数据类型</header>
+    <article>
+      <ul>
+        <li>undefined（未定义）</li>
+        <li>null（空）</li>
+        <li>boolean（布尔型）</li>
+        <li>string（字符串）</li>
+        <li>symbol</li>
+        <li>number（数字）</li>
+        <li>bigint（可以表示任意大的整数）</li>
+        <li>object（对象）</li>
+      </ul>
+    </article>
+  </section>
+<section class="main-section" id="变量名称">
+    <header>变量名称</header>
+    <article>
+      <p>由数字、字母、美元符号 `$` 或者下划线 `_` 组成，但是不能包含空格或者以数字为开头。【大小写敏感】</p>
+    </article>
+  </section>
+  <section class="main-section" id="驼峰命名法">
+    <header>驼峰命名法</header>
+    <article>
+      <p>驼峰式命名法（Camel-Case）又称骆驼式命名法，是电脑程式编写时的一套命名规则（惯例）。</p>
+        <p>正如它的名称CamelCase所表示的那样，是指混合使用大小写字母来构成变量和函数的名字。</p>
+      <p>程序员们为了自己的代码能更容易的在同行之间交流，所以多采取统一的可读性比较好的命名方式。</p>
+    </article>
+  </section>
+  <section class="main-section" id="声明变量">
+    <header>声明变量</header>
+    <article>
+      <p>var:是全局声明，如果在函数内部声明则是局部声。</p>
+      <p>let:希望变量改变，在代码块、语句或表达式中使用 `let` 关键字声明变量时，其作用域仅限于该代码块、语句或表达式。</p>
+      <p>const：一个变量被赋值为 `const`，它就**不能被重新**赋值，但数组是可改变的。</p>
+    </article>
+  </section>
+  <section class="main-section" id="数组">
+    <header>数组</header>
+    <article>
+      <p>push（）：压入末尾值</p>
+      <code>Array.push()</code>
+      <p>pop（）：弹出末尾值</p>
+      <code>Array.pop</code>
+      <p>shift（）：移除头部值</p>
+      <code>Array.shift</code>
+      <p>unshift（）：移入一个元素到头部</p>
+      <code>Array.unshift</code>
+    </article>
+  </section>
+  <section class="main-section" id="函数">
+    <header>函数</header>
+    <article>
+      <p>函数是指一段可以直接被另一段程序或代码引用的程序或代码。</p>
+      <code>function functionName() {
+  console.log("Hello World");
+}</code>
+      <p>调用函数</p>
+      <code>functionName();</code>
+    </article>
+  </section>
+</mian>
