@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+  
+  img{
+    width:50px;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:white;;
+  }
+  
+  ul li {
+      float: right;
+  }
+  
+  li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 20px 16px;
+      text-decoration: none;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  li a:hover {
+      background-color: #EEEEEE;
+  }
+  #nav-bar{
+    margin: 0;
+    padding: 0;
+  }
+  .logo{
+    float:left;
+    border-radius:50%; 
+    }
+  #hero{
+    font-size:10px;
+    text-align:center;
+    margin:10px auto;
+  }
+  #email{
+    text-align:center;
+    margin:10px auto 10px auto;
+  }
+  #hero input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    border-radius: 28px;
+    background-color: #D3DEDC;
+  }
+  
+  h2{
+    font-size:1.25rem;
+    text-align:center;
+    margin:100px auto 10px auto;
+  }
+  p{
+    margin:auto 20px; 
+    text-align:center;
+    font-size:18px;
+  }
+  #how-it-works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  ol li{
+    text-align:center;
+  }
+  .level{
+    text-align:center;
+    margin:10px auto 0 auto;
+  }
+  .product{
+    align-items: center;
+  }
+  .product > button {
+    width: 25%;
+    height: 30px;
+    margin: 25px 0;
+    border: 0;
+    border-radius: 28px;
+    background-color: #D3DEDC;
+    position:relative;
+    left:38%;
+  }
+  footer {
+    margin-top: 30px;
+    background-color: #D3DEDC;
+    padding: 20px;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #D3DEDC;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  .copyright{
+    font-size: 0.25rem ;
+    padding: 25px auto 5px auto;
+  }
+  @media (max-width: 500px) {
+    #header {
+      flex-direction: column;
+    }
+    
+    #header-img {
+      display: none;
+    }
+    #nav-bar {
+      width: 90%;
+      height: 40px;
+      justify-content: space-around;
+    }
+      
+   }
+  
+  
