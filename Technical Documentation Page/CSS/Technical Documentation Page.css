@@ -8,11 +8,9 @@ body {
 
 #navbar {
   position: fixed;
-  min-width: 100px;
-  top: 0px;
-  left: 0px;
-  width: 300px;
-  height: 100%;/*navbar 滑杆*/
+  display: block;
+  folat: left;
+  height: 100%; //navbar 滑杆
   border-right: solid;
   border-color: #7f8c8d;
 }
@@ -75,10 +73,9 @@ section li {
     border: 1px solid;
     height: 207px;
   }
-
   #navbar {
     background-color: white;
-    position: absolute;
+    position: fixed;
     top: 0;
     padding: 0;
     margin: 0;
@@ -91,18 +88,4 @@ section li {
   #main-doc {
     margin-left: -10px;
   }
-}
-
-code {
-  display: block;
-  text-align: left;
-  white-space: pre-line;
-  position: relative;
-  word-break: normal;
-  word-wrap: normal;
-  line-height: 2;
-  background-color: #f7f7f7;
-  padding: 15px;
-  margin: 10px;
-  border-radius: 5px;
 }

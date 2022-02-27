@@ -72,7 +72,6 @@ form {
 }
 
 .input-radio {
-  display: inline-block;
   margin-right: 0.625rem;
   min-height: 1.25rem;
   min-width: 1.5rem;

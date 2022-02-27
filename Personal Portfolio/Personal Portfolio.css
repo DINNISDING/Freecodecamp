@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;;
+}
+a{
+    text-decoration: none;
+}
+
+/* navbar section */
+#navbar{
+    position: sticky;
+    top: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E3B7A0;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-size: large;
+    padding: 20px 25px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #BF9270;
+  }
+
+  /* welcome-section */
+#welcome-section{
+    height: 100vh;
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    background-color: #FFEDDB;
+/*     padding: 15% 30% 20%; */
+}
+
+#welcome-section h1{
+    color: #BF9270;
+    padding: 15% 30% 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin-top: 0;
+}
+#welcome-section h2{
+    color: #E3B7A0;
+    font-family: 'Shizuru', cursive;
+    font-size: 1.5rem;
+}
+
+/* projects section  */
+#projects{
+    background-color: #FAE3D9;
+    padding: 5% 10%;
+}
+
+#projects h2{
+    font-size: 1.8rem;
+    color: #BF9270;
+    text-decoration: underline;
+}
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.column{
+    width: 90%;
+}
+
+.projects-grid a{
+    padding: 20px;
+}
+
+.project-image {
+    width: 90%;
+    padding: 5%;
+    margin: 5% 0 0 0;
+    gap: 25px;
+}
+
+@media screen and (max-width: 600px){
+    .column {
+        width: 50%;
+      }
+}
+
+#projects a{
+    font-size: 1.25rem;
+}
+
+/* contact-section */
+#contact{
+    background-color: #FFEDDB;
+    padding: 5%;
+}
+.icon i{
+    margin: 0 0.5rem;
+}
+.icon a{
+    font-family: 'Shizuru', cursive;
+    color: black;
+    padding-right:1rem;
+}
+.contact-h1{
+    margin: 0 auto 3% 0;
+}
+
+/* Footer section */
+footer{
+    background-color: #FAE3D9;
+    padding: 10px;
+}
+

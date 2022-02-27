@@ -1,61 +1,60 @@
 <html>
-<link href="./CSS/Survey Form.css" rel="stylesheet" type="text/css"/>
+  <link href="./CSS/Survey Form.css" rel="stylesheet" type="text/css"/>
 <body class="container">
-    <header class="header">
-      <h1 id="title">Survey Form<h1>
-          <p id="description">Thank you for taking the time to help us improve the platform</p>
-    </header>
-    <form method="get" class="survey-form">
-      <div class="form-group">
-        <label for="name" id="name-label">Your name: </label>
-        <input type="text" name="name" id="name" placeholder="Enter your name" class="form-control" required>
+  <header class="header">
+    <h1 id="title">Survey Form<h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </header>
+  <form method="get" id="survey-form">
+    <div class="form-group">
+      <label for="name" id="name-label">Your name: </label>
+      <input type="text" name="name" id="name" placeholder="Enter your name" class="form-control" required>
+    </div>
+    <div class="form-group">
+      <label for="email" id="email-label">Your email: </label>
+      <input type="email" name="email" id="email" placeholder="Enter your email" class="form-control" required>
+    </div>
+    <div class="form-group">
+      <label for="number" id="number-label">Your Age: </label>
+      <input type="number" name="number" id="number" min="8" max="99" placeholder="Enter your Age" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="dropdown">Why do you like Mariah Carey most?</label>
+      <select id="dropdown" name="favorite" class="form-control">
+        <option value="Song" class="input-radio">Song</option>
+        <option value="Talent" class="input-radio">Talent</option>
+        <option value="timbre" class="input-radio">timbre</option>
+      </select>
+      <p>Will you love her forever?:</p>
+      <label><input type="radio" id="input-radio" name="input" value="Definitely">Definitely</label>
+      <label><input type="radio" id="input-radio" name="input" value="Maybe">Maybe</label>
+      <label><input type="radio" id="input-radio" name="input" value="Not-sure">Not-sure</label>
+      </p>
+      <p>Choose your the ablum you like：</p>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="Mariah Carey">Mariah Carey</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="Emotions">Emotions</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="Music Box">Music Box</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="Merry Christmas">Merry Christmas</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="Daydream">Daydream</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="Butterfly">Butterfly</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="Rainbow">Rainbow</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="Glitter">Glitter</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="Charmbracelet">Charmbracelet</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="The Emancipation of Mimi">The Emancipation of Mimi</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="E=MC²">E=MC²</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="Memoirs of an Imperfect Angel">Memoirs of an Imperfect Angel</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="Merry Christmas II You">Merry Christmas II You</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="Me. I Am Mariah... The Elusive Chanteuse">Me. I Am Mariah... The Elusive Chanteuse</label>
+      <label><input class="input-checkbox" type="checkbox" name="favorite" value="Caution">Caution
+      </label>
+
+      <div class="form">
+        <label id="comment">Any comments or suggestions?</label>
+        <textarea id="comment" name="comment" rows="5" cols="33" placeholder="Enter your comments here..."></textarea>
       </div>
-      <div class="form-group">
-        <label for="email" id="email-label">Your email: </label>
-        <input type="email" name="email" id="email" placeholder="Enter your email" class="form-control" required>
+
+      <div>
+        <button id="submit" type="submit">Submit!</button>
       </div>
-      <div class="form-group">
-        <label for="number" id="number-label">Your Age: </label>
-        <input type="number" name="number" id="number" min="8" max="99" placeholder="Enter your Age" class="form-control">
-      </div>
-      <div class="form-group">
-        <label for="dropdown">Why do you like Mariah Carey most?</label>
-        <select id="dropdown" name="favorite" class="form-control">
-          <option value="Song" class="input-radio">Song</option>
-          <option value="Talent" class="input-radio">Talent</option>
-          <option value="timbre" class="input-radio">timbre</option>
-        </select>
-        <p>Will you love her forever?:</p>
-        <label><input type="radio" id="input-radio" name="Definitely" value="Definitely" checked>Definitely</label>
-        <label><input type="radio" id="input-radio" name="Maybe" value="Maybe" checked>Maybe</label>
-        <label><input type="radio" id="input-radio" name="Not-sure" value="Not-sure" checked>Not-sure</label>
-        </p>
-        <p>Choose your the ablum you like：</p>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="Mariah Carey">Mariah Carey</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="Emotions">Emotions</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="Music Box">Music Box</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="Merry Christmas">Merry Christmas</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="Daydream">Daydream</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="Butterfly">Butterfly</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="Rainbow">Rainbow</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="Glitter">Glitter</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="Charmbracelet">Charmbracelet</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="The Emancipation of Mimi">The Emancipation of Mimi</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="E=MC²">E=MC²</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="Memoirs of an Imperfect Angel">Memoirs of an Imperfect Angel</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="Merry Christmas II You">Merry Christmas II You</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="Me. I Am Mariah... The Elusive Chanteuse">Me. I Am Mariah... The Elusive Chanteuse</label>
-        <label><input class="input-checkbox" type="checkbox" name="favorite" value="Caution">Caution
-        </label>
-  
-        <div class="form">
-          <label id="comment">Any comments or suggestions?</label>
-          <textarea id="comment" name="comment" rows="5" cols="33" placeholder="Enter your comments here..."></textarea>
-        </div>
-  
-        <div>
-          <button id="submit" type="submit">Submit!</button>
-        </div>
-    </form>
-  </body>
-</html>>
+  </form>
+</body>
